@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Run&Shine - Tu tienda de ropa deportiva</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Logo de Run&Shine">
+            </div>
+            <div class="titulo">
+                <h1>Run&Shine</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#ofertas">Ofertas</a></li>
+                    <li><a href="#">Market</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="categorias">
+            <h2>Categorías</h2>
+            <ul>
+                <li><a href="#">Running</a></li>
+                <li><a href="#">Fitness</a></li>
+                <li><a href="#">Yoga</a></li>
+                </ul>
+        </section>
+        <section id="ofertas" class="ofertas">
+            <h2>Ofertas</h2>
+            <div class="productos">
+              <div class="producto">
+                <img src="imgs/remera_hombre_02.png" alt="Remera Hombre">
+                <h3>Remera Hombre</h3>
+                <p> <span class="precio-anterior">$24.000</span>
+                    <span class="precio-actual">$19.000</span>
+                </p>
+              </div>
+              <div class="producto">
+                <img src="imgs/zapatillas_03.png" alt="Zapatillas Running">
+                <h3>Zapatillas Running v5</h3>
+                <p> <span class="precio-anterior">$90.000</span>
+                    <span class="precio-actual">$82.000</span>
+                </p>
+              </div>
+                <div class="producto">
+                  <img src="imgs/remera_mujer_01.png" alt="Remera Mujer">
+                  <h3>Remera Mujer</h3>
+                  <p> <span class="precio-anterior">$22.000</span>
+                    <span class="precio-actual">$17.000</span>
+                </p>
+                </div>
+                <div class="producto">
+                    <img src="imgs/zapatillas_01.png" alt="Zapatillas Running">
+                    <h3>Zapatillas Running v3</h3>
+                    <p> <span class="precio-anterior">$78.000</span>
+                        <span class="precio-actual">$65.000</span>
+                    </p>
+                  </div>
+                </div>
+          </section>
+
+          <section id="contacto" class="contacto">
+            <p>Ponte en contacto con nosotros:</p>
+            <form action="https://formspree.io/f/xovqerpd" method="POST">
+              <label>
+                correo:
+                <input type="email" name="email">
+              </label>
+              <label>
+                Mensaje:
+                <textarea name="message"></textarea>
+              </label>
+              <button type="submit">Enviar</button>
+            </form>  
+          
+          </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Run&Shine. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
